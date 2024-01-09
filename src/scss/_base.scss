@@ -42,3 +42,33 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+* {
+  font-family: Open Sans;
+}
+
+header {
+  padding: 10px 30px 10px 40px;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #7bd400;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.order-classic,
+.order-reverse {
+  border-bottom: solid 8px #7bd400;
+}
+
+span {
+  color: #f40f96;
+}

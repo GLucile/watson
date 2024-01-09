@@ -1,0 +1,30 @@
+.news-comments {
+  display: flex;
+}
+
+.news-comments p {
+  margin-right: 10px;
+}
+
+.news-comments-icon {
+  margin-right: 5px;
+  align-items: center;
+}
+
+.news-stickers {
+  display: flex;
+  text-transform: uppercase;
+  padding: 7px 11px;
+  background-color: #fb8e00;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.news-stickers-global {
+  background-color: #f40f96;
+}
+
+.news-stickers-popular {
+  background-color: #00c1f6;
+}

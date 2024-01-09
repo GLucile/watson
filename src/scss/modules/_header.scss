@@ -1,0 +1,26 @@
+.head-image {
+  height: 60%;
+}
+
+.head-tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .head-icons,
+  .head-tools {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  .head-mobile-pad-image {
+    display: none;
+  }
+  header {
+    background-color: #222222;
+    color: #fff;
+  }
+}
